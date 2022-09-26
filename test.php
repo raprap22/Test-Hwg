@@ -3,7 +3,7 @@
 <body>
 
 <?php  
-for ($x = 0; $x <= 100; $x++) {
+for ($x = 1; $x <= 100; $x++) {
   if($x % 3 == 0 && $x % 5 == 0)
 	echo "$x = TigaLima <br>";
     elseif($x % 3 == 0)
